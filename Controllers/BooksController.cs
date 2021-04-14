@@ -35,5 +35,12 @@ namespace OSSE_Assignment.Controllers
 
             return b;
         }
+        [HttpPost]
+        public ActionResult<Book> Create(Book book)
+        {
+            _bookService.Create(book);
+
+            return CreatedAtRoute("GetBook", new { id = book.Id.ToString() }, book);
+        }
     }
 }
