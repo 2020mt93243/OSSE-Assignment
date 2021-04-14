@@ -1,10 +1,11 @@
-## _Open Source Software Engineering – Assignment_
-# 1. Objective: Contributing to Open Source Software
+## Open Source Software Engineering – Assignment
+# 1. Objective:
+_Contributing to Open Source Software_
 
 # Technologies used:
-- Git
-- GitHub
-- Visual Studio Code
+_- Git
+- GitHub_
+_- Visual Studio Code_
 
 
 ## License
