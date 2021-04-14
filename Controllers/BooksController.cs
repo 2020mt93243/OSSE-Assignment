@@ -19,5 +19,21 @@ namespace OSSE_Assignment.Controllers
         {
             _bookService = bookService;
         }
+        [HttpGet]
+        public ActionResult<List<Book>> Get() =>
+            _bookService.Get();
+
+        [HttpGet("{id:length(24)}", Name = "GetBook")]
+        public ActionResult<Book> Get(string id)
+        {
+            var b = _bookService.Get(id);
+
+            if (b == null)
+            {
+                return NotFound();
+            }
+
+            return b;
+        }
     }
 }
