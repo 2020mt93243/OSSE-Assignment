@@ -12,9 +12,9 @@ _Contributing to Open Source Software_
 - And also got more knowledge on the git commands.
 
 ## Contributors:
-- [Kairav Kumar Singh] (2020MT93243)[df1]
-- [Kalyankumar S] (2020MT93039)[df1]
-- [Kishore Kumar] (2020MT93118)[df1]
+- Kairav Kumar Singh [2020MT93243]
+- Kalyankumar S [2020MT93039]
+- Kishore Kumar [2020MT93118]
 
 ## License
 
