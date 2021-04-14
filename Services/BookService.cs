@@ -35,5 +35,15 @@ namespace OSSE_Assignment.Services
         {
             _books.ReplaceOne(b => b.Id == id, book);
         }
+
+        public void Remove(Book book)
+        {
+            _books.DeleteOne(b => b.Id == book.Id);
+        }
+
+        public void Remove(string id)
+        {
+            _books.DeleteOne(b => b.Id == id);
+        }
     }
 }
