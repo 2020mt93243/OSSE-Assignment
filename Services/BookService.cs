@@ -18,5 +18,17 @@ namespace OSSE_Assignment.Services
 
             _books = db.GetCollection<Book>(settings.BooksCollectionName);
         }
+
+        public List<Book> Get() =>
+            _books.Find<Book>(b => true).ToList();
+
+        public Book Get(string id) =>
+            _books.Find<Book>(b => b.Id == id).FirstOrDefault();
+
+        public Book Create(Book b)
+        {
+            _books.InsertOne(b);
+            return b;
+        }
     }
 }
