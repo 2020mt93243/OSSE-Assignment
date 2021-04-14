@@ -30,5 +30,10 @@ namespace OSSE_Assignment.Services
             _books.InsertOne(b);
             return b;
         }
+
+        public void Update(string id, Book book)
+        {
+            _books.ReplaceOne(b => b.Id == id, book);
+        }
     }
 }
