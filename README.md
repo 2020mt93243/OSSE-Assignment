@@ -12,13 +12,19 @@ _Contributing to Open Source Software_
 - And also got more knowledge on the git commands.
 
 ## Contributors:
-- Kairav Kumar Singh [2020MT93243]
-- Kalyankumar S [2020MT93039]
-- Kishore Kumar [2020MT93118]
+- Kairav Kumar Singh [ 2020MT93243 ]
+- Kalyankumar S [ 2020MT93039 ]
+- Kishore Kumar [ 2020MT93118 ]
 
 ## License
 
-- MIT
+- Apache License 2.0
+
+> A permissive license whose main conditions require 
+> preservation of copyright and license notices. 
+> Contributors provide an express grant of patent rights. 
+> Licensed works, modifications, and larger works may be 
+> distributed under different terms and without source code.
 
 _**Free Software!**_
 
