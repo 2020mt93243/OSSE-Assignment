@@ -4,7 +4,7 @@ _Contributing to Open Source Software_
 
 ## Technologies used:
 - Git
-- GitHub_
+- GitHub
 - Visual Studio Code
 
 ## Key Learnings:
@@ -12,9 +12,9 @@ _Contributing to Open Source Software_
 - And also got more knowledge on the git commands.
 
 ## Contributors:
-- [Kairav Kumar Singh] (2020MT93243)
-- [Kalyankumar S] (2020MT93039)
-- [Kishore Kumar] (2020MT93118)
+- [Kairav Kumar Singh] (2020MT93243)[df1]
+- [Kalyankumar S] (2020MT93039)[df1]
+- [Kishore Kumar] (2020MT93118)[df1]
 
 ## License
 
@@ -79,7 +79,7 @@ further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at Grp-opensourceoffice@adobe.com. All
+reported by contacting the project team. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.
