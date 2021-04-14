@@ -13,7 +13,10 @@ namespace OSSE_Assignment.Services
 
         public BookService(IBooksDataSettings settings)
         {
+            var client = new MongoClient(settings.ConnectionString);
+            var db = client.GetDatabase(settings.DatabaseName);
 
+            _books = db.GetCollection<Book>(settings.BooksCollectionName);
         }
     }
 }
